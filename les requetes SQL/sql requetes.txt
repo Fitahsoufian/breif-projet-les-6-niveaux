@@ -1,0 +1,17 @@
+INSERT INTO products(productID, productName, productPrice, productImage, productCategory) values(1, "Pizza", "40", "cake.png", "desserts");
+INSERT INTO products(productName, productPrice, productImage, productCategory) values("Pizza", "10", "images/pizza.png", "food");
+CREATE TABLE products(
+    productID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    productName VARCHAR(255) NOT NULL,
+    productPrice FLOAT NOT NULL,
+    productImage VARCHAR(255) NOT NULL DEFAULT "images/products/default.jpg",
+    productAddedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+) ENGINE=INNODB
+"select * from adminlogin where admin_email='$name' and admin_password='$password'";
+"SELECT productName, productPrice, productImage FROM products WHERE productCategory='2'";
+$foodSQL = "SELECT productName, productPrice, productImage FROM products WHERE productCategory='1'";
+$categoriesSQL = "SELECT * FROM categories";
+"INSERT into products(productName,productPrice,productImage,productCategory) values('$name' , '$price' , 'images/$image' , '$category')";($con, "SELECT * FROM products WHERE productID = '$id' ")
+($con, "SELECT * FROM products WHERE productID = '$id' ");
+" UPDATE  `products` set `productName` = '$name',`productPrice` = '$price',`productImage` = '$destimage' where `productID` = '$id'";
+" DELETE FROM  `products`  where `productID` = '$id'";

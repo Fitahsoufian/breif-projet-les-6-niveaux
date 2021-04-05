@@ -1,0 +1,4 @@
+adminlogin = (ID INT, admin_email VARCHAR(50), admin_password VARCHAR(50));
+categories = (ID INT, categoryName VARCHAR(255));
+products = (productID INT, productName VARCHAR(255), productPrice INT, productImage VARCHAR(255), #ID);
+Gestion = (#productID, #ID, ADD VARCHAR(50), READ VARCHAR(50), EDITE VARCHAR(50), REMOVE VARCHAR(50));

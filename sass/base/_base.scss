@@ -5,3 +5,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+width: 1440px;
+height: auto;
+}
+html, body, div, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.nav li {
+  display: inline-block;
+  list-style: none;
+  height: 60px; 
+  line-height: 60px; 
+  padding: 0 40px; 
+}
+*
+.nav li:hover {
+  background: red;
+  transition: background .3s;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
